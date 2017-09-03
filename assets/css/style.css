@@ -1,1 +1,82 @@
-/*Trivia Game CSS*/
+@font-face {
+	font-family: digital7;
+	src: url('digital-7.ttf');
+}
+
+#shot-clock {
+	font-family: digital7;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background:url(../images/basketball-court.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	background-position: center;
+}
+
+.jumbotron {
+	height: 650px;
+	background-color: transparent;
+}
+
+h1 {
+	text-align: center; 
+}
+
+h1,
+button {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-menu {
+	height: 350px;
+	width: 100%;
+}
+
+.button-width {
+	max-width: 400px !important;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 350px;
+}
+
+.content-area,
+.right_or_wrong {
+	max-width: 66%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-area {
+
+}
+
+.right_or_wrong {
+	
+}
+
+#answer1,
+#answer2,
+#answer3,
+#answer4 {
+	background-color: lightblue;
+	/*opacity: 0.5;*/
+	color: white;
+	padding: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-radius: 15px 50px;
+	width: 90%;
+	text-align: center;
+
+}
